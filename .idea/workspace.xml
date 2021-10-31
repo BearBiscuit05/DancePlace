@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aed7de08-17cb-4cdd-85f3-46e8dae1934b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/service/impl/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="aed7de08-17cb-4cdd-85f3-46e8dae1934b" name="Default Changelist" comment="add User basic function">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ClubDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ClubDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/domain/Club.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,6 +87,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cloud.bearbiscuit.DancePlace.dao" />
+      <recent name="cloud.bearbiscuit.DancePlace.domain" />
       <recent name="cloud.bearbiscuit.DancePlace.service.impl" />
       <recent name="cloud.bearbiscuit.DancePlace.service" />
       <recent name="cloud.bearbiscuit.DancePlace.controller" />
@@ -146,7 +145,7 @@
       <workItem from="1635506293908" duration="56000" />
       <workItem from="1635506351935" duration="4000" />
       <workItem from="1635506405982" duration="1812000" />
-      <workItem from="1635684418525" duration="2568000" />
+      <workItem from="1635684418525" duration="3394000" />
     </task>
     <servers />
   </component>
@@ -170,5 +169,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/DancePlace" />
     </ignored-roots>
+    <MESSAGE value="add User basic function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add User basic function" />
   </component>
 </project>

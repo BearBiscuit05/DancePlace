@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cloud.bearbiscuit.DancePlace.dao.ClubDao">
+
+    <insert id="insertClub" useGeneratedKeys="true" keyProperty="cid">
+        insert club_base_information(
+        uid,cphone,ccity,cschool,
+        cpicture,cintroduce,cuids
+        )
+        values(
+        #{uid},#{cphone},#{ccity},#{cschool},
+        #{cpicture},#{cintroduce},#{cuids}
+        )
+    </insert>
+
+    <select id="selectClubs" resultType="Club">
+        select cid,name from club_base_information order by cid desc
+    </select>
+
+    <select id="queryUser" resultType="Club">
+        select * from club_base_information where cid = #{cid}
+    </select>
+
+
+    <update id="updateClubInf">
+        update club_base_information
+        <trim prefix="set" suffixOverrides=",">
+            <if test="uid!=null">uid=#{uid},</if>
+            <if test="cphone!=null">cphone=#{cphone},</if>
+            <if test="ccity!=null">ccity=#{ccity},</if>
+            <if test="cschool!=null">cschool=#{cschool},</if>
+            <if test="cpicture!=null">cpicture=#{cpicture},</if>
+            <if test="cintroduce!=null">cintroduce=#{cintroduce},</if>
+            <if test="cuids!=null">cuids=#{cuids},</if>
+        </trim>
+        where cid = #{cid}
+    </update>
+
+</mapper>
