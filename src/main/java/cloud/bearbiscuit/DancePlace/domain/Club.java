@@ -14,7 +14,7 @@ public class Club {
     private int uid;
     private int cid;
     private String cphone;
-    private String uccity;
+    private String ccity;
     private String cschool;
     private String cpicture;
     private String cintroduce;
