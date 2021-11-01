@@ -15,5 +15,4 @@ public class Talk {
     private int uid1;
     private int uid2;
     private String tcontext;
-
 }

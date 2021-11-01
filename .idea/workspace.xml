@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aed7de08-17cb-4cdd-85f3-46e8dae1934b" name="Default Changelist" comment="add User basic function">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ActivityDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ActivityDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="aed7de08-17cb-4cdd-85f3-46e8dae1934b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ConnectionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ConnectionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/StudioDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/StudioDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/TalkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/TalkDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ClubDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ClubDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ClubDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ClubDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/domain/Talk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/domain/Talk.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,8 +154,16 @@
       <workItem from="1635506351935" duration="4000" />
       <workItem from="1635506405982" duration="1812000" />
       <workItem from="1635684418525" duration="4288000" />
-      <workItem from="1635761148533" duration="2480000" />
+      <workItem from="1635761148533" duration="4240000" />
     </task>
+    <task id="LOCAL-00001" summary="add activity basic function and fix bugs">
+      <created>1635767170863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635767170863</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,13 +186,18 @@
       <path value="$PROJECT_DIR$/DancePlace" />
     </ignored-roots>
     <MESSAGE value="add User basic function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add User basic function" />
+    <MESSAGE value="add activity basic function and fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add activity basic function and fix bugs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1506" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635766060867">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1635766060867" />
+    <state x="-1362" y="85" key="CommitChangelistDialog2" timestamp="1635767170381">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1362" y="85" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1635767170381" />
     <state x="196" y="161" key="FileChooserDialogImpl" timestamp="1635761316556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
