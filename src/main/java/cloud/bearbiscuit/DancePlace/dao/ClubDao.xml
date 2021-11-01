@@ -19,7 +19,7 @@
         select cid,name from club_base_information order by cid desc
     </select>
 
-    <select id="queryUser" resultType="Club">
+    <select id="queryClub" resultType="Club">
         select * from club_base_information where cid = #{cid}
     </select>
 

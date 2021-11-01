@@ -15,7 +15,7 @@ public interface ClubDao {
 
     int insertClub(Club club);
 
-    Club queryClub(int uid);
+    Club queryClub(int cid);
 
     List<Club> selectClubs();
 
