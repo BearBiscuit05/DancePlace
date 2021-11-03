@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cloud.bearbiscuit.DancePlace.dao.TalkDao">
+
+    <insert id="insertTalk" useGeneratedKeys="true" keyProperty="tid">
+        insert talk_base_information(
+        uid1,uid2,tcontext
+        )
+        values(
+        #{uid1},#{uid2},#{tcontext}
+        )
+    </insert>
+
+    <select id="selectTalks" resultType="Talk">
+        select tid,name from talk_base_information order by tid desc
+    </select>
+
+    <select id="queryTalk" resultType="Talk">
+        select * from talk_base_information where tid = #{tid}
+    </select>
+
+
+    <update id="updateTalkInf">
+        update talk_base_information
+        <trim prefix="set" suffixOverrides=",">
+            <if test="uid1!=null">uid1=#{uid1},</if>
+            <if test="uid2!=null">uid2=#{uid2},</if>
+            <if test="tcontext!=null">tcontext=#{tcontext},</if>
+        </trim>
+        where tid = #{tid}
+    </update>
+
+</mapper>

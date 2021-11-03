@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cloud.bearbiscuit.DancePlace.dao.StudioDao">
+
+    <insert id="insertStudio" useGeneratedKeys="true" keyProperty="sid">
+        insert studio_base_information(
+        uid,sphone,scity,spicture,sintroduce,suids;
+        )
+        values(
+        #{uid},#{sphone},#{scity},#{spicture},#{sintroduce},#{suids};
+        )
+    </insert>
+
+    <select id="selectStudios" resultType="Studio">
+        select sid,name from studio_base_information order by sid desc
+    </select>
+
+    <select id="queryStudio" resultType="Studio">
+        select * from studio_base_information where sid = #{sid}
+    </select>
+
+
+    <update id="updateStudioInf">
+        update studio_base_information
+        <trim prefix="set" suffixOverrides=",">
+            <if test="uid!=null">uid=#{uid},</if>
+            <if test="sphone!=null">sphone=#{sphone},</if>
+            <if test="scity!=null">scity=#{scity},</if>
+            <if test="spicture!=null">spicture=#{spicture},</if>
+            <if test="sintroduce!=null">sintroduce=#{sintroduce},</if>
+            <if test="suids!=null">suids=#{suids},</if>
+        </trim>
+        where sid = #{sid}
+    </update>
+
+</mapper>

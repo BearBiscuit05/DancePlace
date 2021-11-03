@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cloud.bearbiscuit.DancePlace.dao.ActivityDao">
+
+    <insert id="insertActivity" useGeneratedKeys="true" keyProperty="aid">
+        insert activity_base_information(
+        uid,acontext,apicture,alike,acity,
+        acomment,atime
+        )
+        values(
+        #{uid},#{acontext},#{apicture},#{alike},#{acity},
+        #{acomment},#{atime}
+        )
+    </insert>
+
+    <select id="selectActivities" resultType="Activity">
+        select aid,name from activity_base_information order by aid desc
+    </select>
+
+    <select id="queryActivity" resultType="Activity">
+        select * from activity_base_information where aid = #{aid}
+    </select>
+
+
+    <update id="updateActivityInf">
+        update activity_base_information
+        <trim prefix="set" suffixOverrides=",">
+            <if test="uid!=null">uid=#{uid},</if>
+            <if test="acontext!=null">acontext=#{acontext},</if>
+            <if test="alike!=null">alike=#{alike},</if>
+            <if test="acity!=null">acity=#{acity},</if>
+            <if test="acomment!=null">acomment=#{acomment},</if>
+            <if test="atime!=null">atime=#{atime},</if>
+        </trim>
+        where aid = #{aid}
+    </update>
+
+</mapper>
