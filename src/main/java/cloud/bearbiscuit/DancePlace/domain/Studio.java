@@ -13,6 +13,7 @@ import lombok.Data;
 public class Studio {
     private int uid;
     private int sid;
+    private String sname;
     private String sphone;
     private String scity;
     private String spicture;

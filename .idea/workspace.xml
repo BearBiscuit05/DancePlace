@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aed7de08-17cb-4cdd-85f3-46e8dae1934b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ConnectionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ConnectionDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/StudioDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/StudioDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/TalkDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/TalkDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/controller/ClubController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/controller/StudioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/service/ClubService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/service/StudioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/service/impl/ClubServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/service/impl/StudioServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bear.pfx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cloud.jks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/domain/Talk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/domain/Talk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datebaseDesign.md" beforeDir="false" afterPath="$PROJECT_DIR$/datebaseDesign.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ActivityDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ActivityDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ClubDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/ClubDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/StudioDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/StudioDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/TalkDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/TalkDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/domain/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/domain/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/domain/Studio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/domain/Studio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,20 +32,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,13 +90,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -104,18 +105,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cloud.bearbiscuit.DancePlace.dao" />
-      <recent name="cloud.bearbiscuit.DancePlace.domain" />
       <recent name="cloud.bearbiscuit.DancePlace.service.impl" />
       <recent name="cloud.bearbiscuit.DancePlace.service" />
       <recent name="cloud.bearbiscuit.DancePlace.controller" />
+      <recent name="cloud.bearbiscuit.DancePlace.dao" />
+      <recent name="cloud.bearbiscuit.DancePlace.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program\Githublib\DancePlace\src\main\resources" />
       <recent name="D:\Program\Githublib\DancePlace\src\main\java\cloud\bearbiscuit\DancePlace\dao" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/dao" />
       <recent name="$PROJECT_DIR$/src/main/java/cloud/bearbiscuit/DancePlace/commonUtils" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -154,7 +155,9 @@
       <workItem from="1635506351935" duration="4000" />
       <workItem from="1635506405982" duration="1812000" />
       <workItem from="1635684418525" duration="4288000" />
-      <workItem from="1635761148533" duration="4240000" />
+      <workItem from="1635761148533" duration="6507000" />
+      <workItem from="1635854467966" duration="4154000" />
+      <workItem from="1635939329310" duration="3793000" />
     </task>
     <task id="LOCAL-00001" summary="add activity basic function and fix bugs">
       <created>1635767170863</created>
@@ -163,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635767170863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add dao basic function">
+      <created>1635768945714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635768945714</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add https Certificate">
+      <created>1635772579259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635772579259</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,24 +204,72 @@
     </ignored-roots>
     <MESSAGE value="add User basic function" />
     <MESSAGE value="add activity basic function and fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add activity basic function and fix bugs" />
+    <MESSAGE value="add dao basic function" />
+    <MESSAGE value="add https Certificate" />
+    <option name="LAST_COMMIT_MESSAGE" value="add https Certificate" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1506" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635766060867">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1635766060867" />
-    <state x="-1362" y="85" key="CommitChangelistDialog2" timestamp="1635767170381">
+    <state x="-1155" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1635942128290">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1362" y="85" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1635767170381" />
+    <state x="-1155" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1635942128290" />
+    <state x="-1362" y="85" key="CommitChangelistDialog2" timestamp="1635772578842">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1362" y="85" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1635772578842" />
     <state x="196" y="161" key="FileChooserDialogImpl" timestamp="1635761316556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="196" y="161" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1635761316556" />
-    <state x="270" y="56" key="SettingsEditor" timestamp="1635761216094">
+    <state width="1493" height="497" key="GridCell.Tab.0.bottom" timestamp="1635859242531">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="497" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635859242531" />
+    <state width="1493" height="497" key="GridCell.Tab.0.center" timestamp="1635859242531">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="497" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635859242531" />
+    <state width="1493" height="497" key="GridCell.Tab.0.left" timestamp="1635859242531">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="497" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635859242531" />
+    <state width="1493" height="497" key="GridCell.Tab.0.right" timestamp="1635859242531">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="497" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635859242531" />
+    <state width="1493" height="516" key="GridCell.Tab.1.bottom" timestamp="1635857854373">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="516" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635857854373" />
+    <state width="1493" height="516" key="GridCell.Tab.1.center" timestamp="1635857854372">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="516" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1635857854372" />
+    <state width="1493" height="516" key="GridCell.Tab.1.left" timestamp="1635857854372">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="516" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1635857854372" />
+    <state width="1493" height="516" key="GridCell.Tab.1.right" timestamp="1635857854373">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="516" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1635857854373" />
+    <state x="543" y="113" key="RollbackChangesDialog" timestamp="1635857538011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="543" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1635857538011" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1635857625825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="56" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1635761216094" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1635857625825" />
+    <state x="-1389" y="236" width="840" height="855" key="run.anything.popup" timestamp="1635941806635">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1389" y="236" width="840" height="855" key="run.anything.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1635941806635" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1635857910829" />
   </component>
 </project>

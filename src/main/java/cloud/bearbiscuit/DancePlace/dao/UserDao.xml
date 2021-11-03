@@ -6,13 +6,13 @@
 
     <insert id="insertUser" useGeneratedKeys="true" keyProperty="uid">
         insert user_base_information(
-        uname,upasswd,uphone,uidentity
-        uclubId,ustudioId,ucity,ucity,
+        uname,upasswd,uphone,uidentity,
+        uclubId,ustudioId,ucity,
         uschool,upicture
         )
         values(
-        #{uname},#{upasswd},#{uphone},#{uidentity}
-        #{uclubId},#{ustudioId},#{ucity},#{ucity},
+        #{uname},#{upasswd},#{uphone},#{uidentity},
+        #{uclubId},#{ustudioId},#{ucity},
         #{uschool},#{upicture}
         )
     </insert>

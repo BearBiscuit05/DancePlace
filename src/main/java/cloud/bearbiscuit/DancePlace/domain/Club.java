@@ -13,6 +13,7 @@ import lombok.Data;
 public class Club {
     private int uid;
     private int cid;
+    private String cname;
     private String cphone;
     private String ccity;
     private String cschool;

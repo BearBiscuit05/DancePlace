@@ -14,7 +14,7 @@
     </insert>
 
     <select id="selectTalks" resultType="Talk">
-        select tid,name from club_base_information order by tid desc
+        select tid,name from talk_base_information order by tid desc
     </select>
 
     <select id="queryTalk" resultType="Talk">

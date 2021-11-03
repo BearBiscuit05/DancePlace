@@ -6,10 +6,10 @@
 
     <insert id="insertStudio" useGeneratedKeys="true" keyProperty="sid">
         insert studio_base_information(
-        uid,sphone,scity,spicture,sintroduce,suids;
+        uid,sname,sphone,scity,spicture,sintroduce,suids;
         )
         values(
-        #{uid},#{sphone},#{scity},#{spicture},#{sintroduce},#{suids};
+        #{uid},#{sname},#{sphone},#{scity},#{spicture},#{sintroduce},#{suids};
         )
     </insert>
 
@@ -26,6 +26,7 @@
         update studio_base_information
         <trim prefix="set" suffixOverrides=",">
             <if test="uid!=null">uid=#{uid},</if>
+            <if test="sname!=null">sname=#{sname},</if>
             <if test="sphone!=null">sphone=#{sphone},</if>
             <if test="scity!=null">scity=#{scity},</if>
             <if test="spicture!=null">spicture=#{spicture},</if>

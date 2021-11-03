@@ -6,11 +6,11 @@
 
     <insert id="insertClub" useGeneratedKeys="true" keyProperty="cid">
         insert club_base_information(
-        uid,cphone,ccity,cschool,
+        uid,cname,cphone,ccity,cschool,
         cpicture,cintroduce,cuids
         )
         values(
-        #{uid},#{cphone},#{ccity},#{cschool},
+        #{uid},#{cname},#{cphone},#{ccity},#{cschool},
         #{cpicture},#{cintroduce},#{cuids}
         )
     </insert>
@@ -29,6 +29,7 @@
         <trim prefix="set" suffixOverrides=",">
             <if test="uid!=null">uid=#{uid},</if>
             <if test="cphone!=null">cphone=#{cphone},</if>
+            <if test="cname!=null">cname=#{cname},</if>
             <if test="ccity!=null">ccity=#{ccity},</if>
             <if test="cschool!=null">cschool=#{cschool},</if>
             <if test="cpicture!=null">cpicture=#{cpicture},</if>

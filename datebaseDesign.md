@@ -29,21 +29,22 @@
 |  cpicture  |    头像    |      |
 | cintroduce |    介绍    |      |
 |   cuids    |    成员    |      |
+|   cname    |  舞团名称  |      |
 |            |            |      |
 
 ### 舞蹈工作室（Studio）
 
-|    名称    |   描述   | 类型 |
-| :--------: | :------: | :--: |
-|    uid     |  身份码  |      |
-|    sid     | 舞蹈室id |      |
-|   sphone   | 联系方式 |      |
-|   scity    | 所在城市 |      |
-|  spicture  |   头像   |      |
-| sintroduce |   介绍   |      |
-|   suids    |   成员   |      |
-|            |          |      |
-|            |          |      |
+|    名称    |    描述    | 类型 |
+| :--------: | :--------: | :--: |
+|    uid     |   身份码   |      |
+|    sid     |  舞蹈室id  |      |
+|   sphone   |  联系方式  |      |
+|   scity    |  所在城市  |      |
+|  spicture  |    头像    |      |
+| sintroduce |    介绍    |      |
+|   suids    |    成员    |      |
+|   sname    | 工作室名称 |      |
+|            |            |      |
 
 ### 动态（activity）
 

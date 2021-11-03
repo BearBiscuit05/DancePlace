@@ -6,11 +6,11 @@
 
     <insert id="insertActivity" useGeneratedKeys="true" keyProperty="aid">
         insert activity_base_information(
-        uid,aid,acontext,apicture,alike,acity,
+        uid,acontext,apicture,alike,acity,
         acomment,atime
         )
         values(
-        #{uid},#{aid},#{acontext},#{apicture},#{alike},#{acity},
+        #{uid},#{acontext},#{apicture},#{alike},#{acity},
         #{acomment},#{atime}
         )
     </insert>
